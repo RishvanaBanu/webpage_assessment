@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway&display=swap');
+.web-1{
+    background-image: url('images\dubai.png');
+}
+#logo{
+    font-family:'pacifico';
+    position: absolute;
+    left: 200px;
+    color: darkorange;
+    margin-top:0px;
+}
+ul{
+    list-style-type:none;
+    overflow: hidden;
+    margin-top: 50px;
+    margin-right: 350px  
+
+}
+li{
+    float:right;
+}
+li a{
+    color: black;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+li a:hover{
+    color:darkgoldenrod
+}
+#create-ac{
+    position: absolute;
+    right: 160px ;
+    margin-top: 10px;
+    text-decoration: none;
+    font-size: 12px;
+    color: darkgoldenrod;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.flex{
+    border: 1px solid white;
+    background-color: rgb(255, 145, 81);
+    position: absolute;
+    top: 200px;
+    left:100px;
+    padding: 20px;
+    margin-top: 10px;
+
+}
+.join-now{
+    color: aliceblue;
+    background-color:rgb(255, 145, 81) ;
+    border : 1px solid white;
+   
+    font-family:sans-serif;
+    font-weight: 100;
+    height: 20px;
+    text-align: center;
+
+
+}
+.search{
+    padding: 10px;
+    background-color: transparent;
+    opacity:50px;
+    margin: 20px;
+
+}
+.position{
+    color: rgb(160, 152, 152);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    opacity: 0.6;
+    border: 1px solid rgb(160, 152, 152) ;
+    height: 30px;
+
+}
+.state{
+    color: rgb(160, 152, 152);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border: 1px solid rgb(160, 152, 152) ;
+    height: 30px;
+}
+.city{
+    color: rgb(160, 152, 152);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: transparent;
+    border: 1px solid rgb(160, 152, 152) ;
+    height: 30px;
+}
+
